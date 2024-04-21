@@ -9,7 +9,7 @@ public class SudokuGame {
     private CanvasWindow canvas;  
     private Image board = new Image(100, 300,"[CHANGE TO IMAGE FILE NAME]"); // FIX ME
 
-    public SpaceInvadersGame(){
+    public SudokuGame(){
         canvas = new CanvasWindow("Sudoku!", CANVAS_WIDTH,CANVAS_HEIGHT);
         canvas.setBackground(Color.WHITE);
         GraphicsText livesText = new GraphicsText("Lives Left: " + lives, 500, 15);
